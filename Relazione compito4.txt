@@ -1,0 +1,17 @@
+Modello OSI Layer 2-3
+
+HOP 1 = Source MAC: Laptop-PT0 192.168.100.100
+        Destination MAC: Interfaccia Switch0
+
+
+HOP 2 = Source MAC: Interfaccia Switch0
+        Destination MAC: Interfaccia Router0
+
+
+HOP 3 = Source MAC: Interfaccia Router0
+        Destination MAC: Interfaccia Switch1
+
+
+HOP 4 = Source MAC: Interfaccia Switch1
+        Destination MAC: Interfaccia Laptop-PT2 192.168.200.100
+
